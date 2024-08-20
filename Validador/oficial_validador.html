@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador</title>
+</head>
+<body>
+    <marquee><h1>Página de Miguel Angel Toscuento Flores</h1></marquee>
+    <!--Formulario-->
+    <center><form id="formulario">
+        <label for="reservada1" id="label1">Ingresa una palabra reservada: </label>
+        <input type="text" id="reservada1" required>
+<br>
+        <label for="reservada2" id="label2">Ingresa otra palabra reservada: </label>
+        <input type="text" id="reservada2" required>
+<br>
+        <label for="reservada3" id="label3">Ingresa otra palabra reservasa: </label>
+        <input type="text" id="reservada3" required>
+        <br><br>
+        <label for="rfc" id="label4">Ingresa tu RFC: </label>
+        <input type="text" id="rfc" required>
+        <br>
+        <label for="identificador">Ingresa un identificador: </label>
+        <input type="text" name="identificador" id="identificador" min="12" max="13">
+        <br><br>
+        <input type="submit" value="Validar datos"><!--Se envia el formulario-->
+    </form></center>
+    <div id="resultado"></div>
+    <script src="tarea_validador.js"></script>
+</body>
+</html>
